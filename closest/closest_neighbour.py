@@ -1,5 +1,5 @@
 """
-Have the function ClosestNeighbour(strArr) read the matrix of numbers stored in strArr which
+Have the function ClosestNeighbour(matrix) read the matrix of numbers stored in strArr which
 will be a 2D matrix that contains only the integers 1, 0, or 2.
 Then from the position in the matrix where a 1 is, return the number of spaces either left,
 right, down, or up you must move to reach an enemy which is represented by a 2.
@@ -21,5 +21,5 @@ The program should also return 0 if the matrix is malformed, meaning the column 
 same in all rows.
 """
 
-def handler(matrix:list):
+def ClosestNeighbour(matrix:list):
     "put your code here"
