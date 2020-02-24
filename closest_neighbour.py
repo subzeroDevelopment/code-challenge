@@ -21,5 +21,5 @@ The program should also return 0 if the matrix is malformed, meaning the column 
 same in all rows.
 """
 
-def handler():
+def handler(matrix:list):
     "put your code here"
